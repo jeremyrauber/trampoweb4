@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TrampoWeb4</string>
+    <string name="descricao">Descrição</string>
+    <string name="valor">Valor</string>
+    <string name="salvar">Salvar</string>
+    <string name="ncm">NCM</string>
+    <string name="estoque">Estoque</string>
+    <string name="desconto">Desconto</string>
+    <string name="trib">Tributação</string>
+    <string name="excluir">Excluir</string>
+    <string name="ip">10.0.0.2:8090</string>
+</resources>

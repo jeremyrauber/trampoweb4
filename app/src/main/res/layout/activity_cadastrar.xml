@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.example.fred.trampoweb4.Cadastrar"
+android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:layout_gravity="left"
+    android:text="@string/descricao"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:layout_gravity="center"
+    android:id="@+id/descricao"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:text="@string/valor" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:id="@+id/valor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:text="@string/ncm" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:id="@+id/ncm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:text="@string/estoque" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:id="@+id/estoque"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:text="@string/desconto" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:id="@+id/desconto"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:text="@string/trib" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:id="@+id/trib"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/salvar"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:text="@string/salvar"/>
+
+</LinearLayout>
